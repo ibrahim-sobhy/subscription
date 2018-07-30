@@ -75,3 +75,9 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
+
+# Eclipse generated files
+.DS_Store
+.classpath
+.project
+**/.settings/
