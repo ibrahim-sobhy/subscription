@@ -4,8 +4,6 @@ import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-import org.mockito.Mock;
-import org.mockito.Mockito;
 
 import static org.mockito.Mockito.*;
 
@@ -52,4 +50,5 @@ public class LoyaltyServiceSpec {
         loyaltyService.addBonus(customerId);
         verify(loyaltyEngine,atMost(1)).add(customerId);
     }
+
 }
